@@ -1,0 +1,97 @@
+@charset "utf-8";
+body, p, h1, h2, h3, h4{ font-family:microsoft yahei; font-style:normal;
+}
+.navbar-inverse .navbar-nav li.login{ padding-left:15px}
+.navbar-inverse .navbar-nav li.login a{ display:inline-block; padding:0; color:#000; font-size:12px; line-height:60px;}
+.navbar-inverse .navbar-nav li.login a:hover{ color:#0a489b;}
+.features {
+  padding: 50px 0 0 0;}
+.features > header {
+    padding: 0 20px;
+    margin-bottom: 60px; }
+.features header h3 {
+    text-transform: uppercase; }
+
+.features .feature-item > i {
+      font-size: 32px;
+      line-height: 100px;
+      height: 100px;
+      width: 100px;
+      padding: 0;
+      border-radius: 50%; }
+.features .feature-item .desc {
+      max-width: 280px;
+      color: #999999; 
+}
+.features .feature-item .desc p{ line-height:32px;}
+.icon{  line-height: 100px;  height: 100px;  width: 100px;  padding: 0;  border-radius: 50%;  border: 2px solid #999999; margin-left:auto; margin-right:auto;}
+.icon i{ width:32px; height:33px; overflow:hidden;  display:block; margin-left:33px; margin-top:34px;}
+.icon-os-scan{background:url(../images/icon_OSscan.gif); background-repeat:no-repeat;}
+.icon-code{background: url(../images/icon_code.gif); background-repeat:no-repeat;}
+.icon-analysis{background: url(../images/icon-analysis.gif); background-repeat:no-repeat;}
+.icon-trojan{background:url(../images/icon_trojan.gif); background-repeat:no-repeat;}
+.bg_footer{ border-bottom:1px solid #e1e1e1; position:relative; height:50px;}
+.bg_footer h4{ background:#fff;  color:#626262; height:20px; position:absolute; left:50%; width:100px; margin-left:-50px; bottom:-20px;}
+footer p{ padding-top:30px; color:#999;}
+
+/*function*/
+.banner{ width:100%;}
+.banner_function{ background:url(../images/bg_banner_fuction.gif) repeat-x left top; height:432px; text-align:center;}
+.details .list-details {
+  margin: 0; }
+.details .list-details > li {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff; }
+.details .list-details > li.alt {
+      background-color: #f2f5fa; }
+@media (min-width: 768px) {
+        .details .list-details > li.alt .detail-item {
+          margin-right: 0;
+          margin-left: 50%; }
+          .details .list-details > li.alt .detail-item .detail-desc {
+            margin-right: 0;
+            margin-left: -100%;
+            float: left; } }
+@media (min-width: 768px) {
+      .details .list-details > li {
+        text-align: left; }
+        .details .list-details > li h2 {
+          font-size: 48px;
+          line-height: 70px; }
+        .details .list-details > li .detail-item {
+          margin-right: 50%; }
+          .details .list-details > li .detail-item .detail-desc {
+            margin-right: -100%;
+            float: right; }
+        .details .list-details > li .detail-desc {
+          padding: 10px 15px 0;
+          width: 100%;
+          max-width: 100%;
+          font-size: 16px; } }
+@media (min-width: 1200px) {
+      .details .list-details > li > .container {
+        width: 970px; } }
+    .details .list-details > li .detail-desc {
+      margin-bottom: 50px; }
+    .details .list-details > li .detail-img {
+      padding: 0 15px; }
+      .details .list-details > li .detail-img img {
+        display: inline-block;
+        max-width: 100%; }
+.container_flow_1{ background:url(../images/bg_flow_01.gif) center bottom no-repeat; padding-bottom:170px;}
+.container_flow_2{ background:url(../images/bg_flow_02.gif) center bottom no-repeat; padding-bottom:170px;}
+.feature-item h3{ color:#555;}
+.desc p{ font-size:42px; padding:20px 0; }
+.red{ color:#ab0101;}
+.blue{ color:#0a489b;}
+.yellow{ color:#dc9b01}
+.padding_0{ padding-top:0;}
+.item_flow p{ font-size:24px; color:#555; font-weight:bold; font-family:"microsoft yahei"; padding-left:50px; height:36px; line-height:36px; margin-bottom:0; width:200px;}
+.item_flow p.step_1{background:url(../images/bar.gif) 0 0px no-repeat #fff;}
+.item_flow p.step_2{background:url(../images/bar.gif) 0 -35px no-repeat #fff;}
+.item_flow p.step_3{background:url(../images/bar.gif) 0 -70px no-repeat #fff;}
+.item_flow p.step_4{background:url(../images/bar.gif) 0 -110px no-repeat #fff;}
+.item_flow{ background:url(../images/bg_bar.gif) 15px top repeat-x; margin-bottom:50px;}
+.item_flow img{ margin-top:50px;}
+.margin_top_0{ margin-top:0}
